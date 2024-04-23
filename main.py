@@ -73,6 +73,7 @@ def MyApp():
             count[SK]["successful"] = 0
             count[SK]["failed"] = 0
         while True:
+            u=requests.get("https://api.toolbomb.fun/call.php?number={SK}&key=Madhav")
             url=requests.post(f"http://toolbomb.fun/Call-Bomber/", data={"number": SK, "key": "@Toolbomb", "sub": ""})
             urll=requests.post(f"http://toolbomb.fun/Call-Bomber/", data={"number": SK, "key": "@Toolbomb", "sub": ""})
             urlll=requests.post(f"http://toolbomb.fun/Call-Bomber/", data={"number": SK, "key": "@Toolbomb", "sub": ""}).status_code
